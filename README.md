@@ -36,7 +36,7 @@ The model is a proof of concept that demonstrates the potential of machine learn
 Any contribution will be appreciated, please feel free to open an issue or make a pull request.
 
 ## **Authors**
-Iskandar Kholmato\
+Iskandar Kholmatov\
 Lazizjon Alimov\
 Maarij Mohi Uddin\
 Sadwal Patel
