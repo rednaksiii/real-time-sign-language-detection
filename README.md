@@ -1,42 +1,89 @@
-# **Real Time Sign Language Detection**
+# ✋🤖 **Real-Time Sign Language Detection**  
 
-## **Overview**
-This project is aimed to help deaf people communicate through hand signs. It is a machine learning model that uses **TensorFlow** and **OpenCV**, and **Computer Vision** to recognize human hand signs. The model is trained on a dataset of hand sign images, and can be used to classify new images of hand signs.
+## 📝 **Overview**  
+This project aims to **help deaf individuals communicate** using **hand signs**. It leverages **Machine Learning**, **TensorFlow**, **OpenCV**, and **Computer Vision** to **recognize human hand gestures**.  
 
-## **Requirements**
-**Python 3.x**\
-**TensorFlow 2.x**\
-**OpenCV**
-**Numpy**
+The model is trained on a dataset of hand sign images and can accurately classify new hand sign images in real time.  
 
-## **Usage**
-1. Clone the repository: \
-`git clone https://github.com/username RealTImeSignLanguageDetection.git`
-2. Install the required packages:\
-`pip install -r requirements.txt`
-3. Train the model:\
-`python training.py`
-4. Test the model:\
-`python tests.py`
+🔗 **Devpost Project Page:** [Real-Time Sign Language Detection](https://devpost.com/software/real-time-sign-language-detection)  
+📺 **Demo Video:** [Watch on YouTube](https://www.youtube.com/watch?v=sTWu8HLdigo&t=1s)  
 
+---
 
-## **Dataset**
-The model is trained on a dataset of hand sign images, containing different hand signs for each letter of the alphabet. The dataset was obtained from the ASL Alphabet dataset.
+## ⚙️ **Requirements**  
+To run this project, you will need:  
+✅ **Python 3.x**  
+✅ **TensorFlow 2.x**  
+✅ **OpenCV**  
+✅ **NumPy**  
 
-## **Model Architecture**
-The model is a convolutional neural network (CNN) architecture, which is known to be effective in image classification tasks. The model is trained using the <a href="https://teachablemachine.withgoogle.com/train">Teachable Machinee</a> and categorical cross-entropy loss function.
+💡 Install all dependencies using:  
+```bash
+pip install -r requirements.txt
+```
 
-## **Results**
-The model achieves a high accuracy on the test set. The model can be further optimized by using more data, fine-tuning the hyperparameters or using Transfer Learning.
+---
 
-## **Conclusion**
-The model is a proof of concept that demonstrates the potential of machine learning to help deaf people communicate through hand signs. This project can be further developed and integrated into an application to help deaf people communicate more easily.
+## 🚀 **Usage**  
 
-## **Contribution**
-Any contribution will be appreciated, please feel free to open an issue or make a pull request.
+1️⃣ **Clone the Repository:**  
+```bash
+git clone https://github.com/username/RealTimeSignLanguageDetection.git
+```
 
-## **Authors**
-Iskandar Kholmatov\
-Lazizjon Alimov\
-Maarij Mohi Uddin\
-Sadwal Patel
+2️⃣ **Install Dependencies:**  
+```bash
+pip install -r requirements.txt
+```
+
+3️⃣ **Train the Model:**  
+```bash
+python training.py
+```
+
+4️⃣ **Test the Model:**  
+```bash
+python tests.py
+```
+
+---
+
+## 📂 **Dataset**  
+The model is trained on a **hand sign image dataset**, featuring different hand gestures for **each letter of the alphabet**. The dataset was obtained from the **ASL Alphabet Dataset**.
+
+---
+
+## 🏗️ **Model Architecture**  
+The model is built using a **Convolutional Neural Network (CNN)**, which is highly effective for **image classification tasks**.  
+
+🔹 **Training Tool:** [Teachable Machine](https://teachablemachine.withgoogle.com/train)  
+🔹 **Loss Function:** Categorical Cross-Entropy  
+
+---
+
+## 📊 **Results**  
+📈 The model achieves **high accuracy** on the test set.  
+
+🔧 **Potential Improvements:**  
+- Using **more training data** 📸  
+- Fine-tuning **hyperparameters** 🔬  
+- Implementing **Transfer Learning** for better performance ⚡  
+
+---
+
+## 🎯 **Conclusion**  
+This project serves as a **proof of concept**, demonstrating how **Machine Learning** can bridge communication gaps for **deaf individuals**. Future development can integrate this model into **real-time applications** for seamless communication.
+
+---
+
+## 💡 **Contributions**  
+We welcome **contributions**! 🎉  
+📌 Feel free to **open an issue** or **submit a pull request** to improve the project.  
+
+---
+
+## 👥 **Authors**  
+💻 **Iskandar Kholmatov**  
+💻 **Lazizjon Alimov**  
+💻 **Maarij Mohi Uddin**  
+💻 **Sadwal Patel**  
